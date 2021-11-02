@@ -1,17 +1,5 @@
-# VideoCompress
-![GitHub Repo stars](https://img.shields.io/github/stars/MRK-YT/MT-VideoCompress?color=blue&style=flat)
-![GitHub forks](https://img.shields.io/github/forks/MRK-YT/MT-VideoCompress?color=green&style=flat)
-![GitHub issues](https://img.shields.io/github/issues/MRK-YT/MT-VideoCompress)
-![GitHub closed issues](https://img.shields.io/github/issues-closed/MRK-YT/MT-VideoCompress)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/MRK-YT/MT-VideoCompress)
-![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/MRK-YT/MT-VideoCompress)
-![GitHub contributors](https://img.shields.io/github/contributors/MRK-YT/MT-VideoCompress?style=flat)
-![GitHub repo size](https://img.shields.io/github/repo-size/MRK-YT/MT-VideoCompress?color=red)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/MRK-YT/MT-VideoCompress)
-![GitHub](https://img.shields.io/github/license/MRK-YT/MT-VideoCompress)
-[![Bot Support](https://img.shields.io/badge/Video%20Compress%20Bot-support%20group-blue)](https://t.me/mo_tech_yt)
 
-A Telegram Video Compressor Bot By [@AbirHasan2005](https://t.me/linux_repo). **This bot works for all!** No need to define each user IDs to use bot. Also works in Group.
+A Telegram Video Compressor Bot By [@ajvadntr](https://t.me/ajvadntr). **This bot works for all!** No need to define each user IDs to use bot. Also works in Group.
 
 ### Special Features:
 - Bot's Live Status on Channel
@@ -21,23 +9,16 @@ A Telegram Video Compressor Bot By [@AbirHasan2005](https://t.me/linux_repo). **
 	- Can Ban-Unban Manually
 	- Can see numbers users in DB
 
-* If you need more help to Deploy Feel Free to ask in [Support Group](https://t.me/linux_repo).
+* If you need more help to Deploy Feel Free to ask in [Support Group](https://t.me/AIOM_BOTS_GROUP).
 
 ### Demo Bot:
-<a href="https://t.me/MT_VideoCompress_Bot"><img src="https://img.shields.io/badge/Demo-Telegram%20Bot-blue.svg?logo=telegram"></a>
-
-### Demo Logs Channel:
-<a href="https://t.me/MT_VideoCompress_Logs"><img src="https://img.shields.io/badge/Demo-Bot%20Logs%20Channel-blue.svg?logo=telegram"></a>
+<a href="https://t.me/AIOM3_Video_Compressor_Bot"><img src="https://img.shields.io/badge/Demo-Telegram%20Bot-blue.svg?logo=telegram"></a>
 
 ## Easy Deploy:
 <p><a href="https://heroku.com/deploy"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
 
-#### Video Tutorial:
-<a href="https://youtu.be/lb-JJLqyww4"><img src="https://img.shields.io/badge/How%20To%20Deploy-blue.svg?logo=Youtube"></a>
-<a href="https://youtu.be/lb-JJLqyww4"><img src="https://img.shields.io/youtube/views/lb-JJLqyww4?style=social">
-
 ### Support Group:
-<a href="https://t.me/mo_tech_Group"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Group-blue.svg?logo=telegram"></a>
+<a href="https://t.me/AIOM_BOTS_GROUP"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Group-blue.svg?logo=telegram"></a>
 
 ## Required Configs:
 * `SESSION_NAME` - Any name of session. Better keep default.
@@ -75,8 +56,3 @@ unban_user - Unban a User
 banned_users - Show Banned Users
 exec - EXEC 🙄
 ```
-
-### Credits:
-* [Jijinr](https://github.com/Jijinr)
-* [SpEcHide](https://github.com/spechide)
-* [AbirHasan2005](https://github.com/AbirHasan2005)
