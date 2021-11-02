@@ -13,19 +13,19 @@ class Localisation:
     FORMAT_SELECTION = "Select the desired format: <a href='{}'>file size might be approximate</a> \nIf you want to set custom thumbnail, send photo before or quickly after tapping on any of the below buttons.\nYou can use /deletethumbnail to delete the auto-generated thumbnail."
     
     
-    DOWNLOAD_START = "📥 Downloading... 📥 \n"
+    DOWNLOAD_START = "Downloading To My Server...\n"
     
-    UPLOAD_START = "📤 Uploading... 📤 \n"
+    UPLOAD_START = "Uploading To Telegram...\n"
     
-    COMPRESS_START = "📀 Trying to compress... 📀"
+    COMPRESS_START = "Trying to compress..."
     
-    RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
+    RCHD_BOT_API_LIMIT = "Size Greater Than Maximum Allowed Size (50MB). Neverthless, trying to upload."
     
-    RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.95GB due to Telegram API limitations."
+    RCHD_TG_API_LIMIT = "Downloaded in {} Seconds.\nDetected File Size: {}\nSorry. But, I Cannot Upload Files Greater Than 1.95GB Due To Telegram API limitations."
     
-    COMPRESS_SUCCESS = "📥 Downloaded in {}\n\n📀 Compressed in {}\n\n📤 Uploaded in {}\n\nBy @Mo_Tech_YT"
+    COMPRESS_SUCCESS = "Downloaded in {}\n\nCompressed in {}\n\nUploaded in {}\n\nBy @AIOM_BOTS"
 
-    COMPRESS_PROGRESS = "⏳ ETA: {}\n🚀 Progress: {}%"
+    COMPRESS_PROGRESS = "⏳ ETA: {}\nProgress: {}%"
 
     SAVED_CUSTOM_THUMB_NAIL = "Custom video / file thumbnail saved. This image will be used in the video / file."
     
