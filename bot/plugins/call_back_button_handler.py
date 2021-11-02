@@ -55,7 +55,7 @@ async def button(bot, update: CallbackQuery):
                     except:
                         pass
                     try:
-                        await update.message.edit_text("🚦🚦 Last Process Stopped 🚦🚦")
+                        await update.message.edit_text("Last Process Stopped")
                         chat_id = LOG_CHANNEL
                         utc_now = datetime.datetime.utcnow()
                         ist_now = utc_now + datetime.timedelta(minutes=30, hours=5)
@@ -68,12 +68,12 @@ async def button(bot, update: CallbackQuery):
                         pass
             else:
                 try:
-                    await update.message.edit_text("You are not allowed to do that 🤭")
+                    await update.message.edit_text("You Are Not Allowed To Do That")
                 except:
                     pass
         elif cb_data == "fuckoff":
             try:
-                await update.message.edit_text("Okay! Fine 🤬")
+                await update.message.edit_text("Okay Fine")
             except:
                 pass
 				
