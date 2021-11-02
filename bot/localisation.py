@@ -25,29 +25,29 @@ class Localisation:
     
     COMPRESS_SUCCESS = "Downloaded in {}\n\nCompressed in {}\n\nUploaded in {}\n\nBy @AIOM_BOTS"
 
-    COMPRESS_PROGRESS = "⏳ ETA: {}\nProgress: {}%"
+    COMPRESS_PROGRESS = "ETA: {}\nProgress: {}%"
 
-    SAVED_CUSTOM_THUMB_NAIL = "Custom video / file thumbnail saved. This image will be used in the video / file."
+    SAVED_CUSTOM_THUMB_NAIL = "Custom video / file Thumbnail Saved. This Image Will Be Used In The Video / file."
     
-    DEL_ETED_CUSTOM_THUMB_NAIL = "✅ Custom thumbnail cleared succesfully."
+    DEL_ETED_CUSTOM_THUMB_NAIL = "Custom Thumbnail Cleared Succesfully."
     
-    FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "✅ Media cleared succesfully."
+    FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "Media Cleared Succesfully."
     
-    SAVED_RECVD_DOC_FILE = "✅ Downloaded Successfully."
+    SAVED_RECVD_DOC_FILE = "Downloaded Successfully."
     
     CUSTOM_CAPTION_UL_FILE = " "
     
-    NO_CUSTOM_THUMB_NAIL_FOUND = "No Custom ThumbNail found."
+    NO_CUSTOM_THUMB_NAIL_FOUND = "No Custom ThumbNail Found."
     
-    NO_VOID_FORMAT_FOUND = "no-one gonna help you\n{}"
+    NO_VOID_FORMAT_FOUND = "No-One Gonna Help You\n{}"
     
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
     
-    FF_MPEG_RO_BOT_STOR_AGE_ALREADY_EXISTS = "⚠️ Already one Process going on! ⚠️ \n\nCheck Live Status on Updates Channel."
+    FF_MPEG_RO_BOT_STOR_AGE_ALREADY_EXISTS = "Already One Process Going On! \n\nCheck Live Status On Log Channel."
     
     HELP_MESSAGE = get_config(
         "STRINGS_HELP_MESSAGE",
-        "Hi, I am Video Compressor Bot \n\n1. Send me your telegram big video file \n2. Reply to the file with: `/compress 50` \n\nSupport Group: @Mo_Tech_Group"
+        "Hi, I Am Video Compressor Bot \n\n1. Send Me Your Telegram Big Video File \n2. Reply To The file With: `/compress 50` \n\nMaintained By: [A̸̐J̵͋8̴̽1̶͐](https://t.me/ajvadntr)"
     )
     WRONG_MESSAGE = get_config(
         "STRINGS_WRONG_MESSAGE",
