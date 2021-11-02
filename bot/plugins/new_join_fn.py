@@ -63,7 +63,7 @@ async def help_message_f(client, message):
             return
         except Exception:
             await message.reply_text(
-                text="Something went Wrong. Contact my [Support Group](https://t.me/mo_tech_group).",
+                text="Something went Wrong. Contact my [Support Group](https://t.me/AIOM_BOTS_GROUP).",
                 parse_mode="markdown",
                 disable_web_page_preview=True
             )
@@ -74,12 +74,12 @@ async def help_message_f(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('🗣️Group', url='https://t.me/Mo_Tech_Group'),
-                    InlineKeyboardButton('📢Update', url='https://t.me/Mo_Tech_YT'),
-                    InlineKeyboardButton('Bot List📃', url='https://t.me/Mo_Tech_YT/176')
+                    InlineKeyboardButton('👥 Group', url='https://t.me/AIOM_BOTS_GROUP'),
+                    InlineKeyboardButton('🗣️ Chnnel', url='https://t.me/AIOM_BOTS'),
+                    InlineKeyboardButton('📄 Bot List', url='https://t.me/AIOM_BOTS/13')
                 ],
                 [
-                    InlineKeyboardButton('🖥️ Tutorial Video 🖥️', url='https://youtu.be/lb-JJLqyww4')
+                    InlineKeyboardButton('➰️ Sorce Code', url='https://github.com/ajvadntr/AIOM_COMPRESSOR_BOT')
                 ]
             ]
         ),
