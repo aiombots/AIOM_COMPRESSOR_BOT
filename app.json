@@ -1,7 +1,7 @@
 {
-  "name": "MT-VideoCompressBot",
+  "name": "AIOM_Video_Compress_Bot",
   "description": "Telegram's best Video Compress Bot",
-  "logo": "https://telegra.ph/file/b687febf32e4d583fb1d4.jpg",
+  "logo": "https://telegra.ph/file/dff47dddf2ad106f2e2c0.jpg",
   "keywords": [
     "telegram",
     "best",
@@ -9,9 +9,9 @@
     "compress",
     "bot"
   ],
-  "success_url": "https://youtube.com/channel/UCmGBpXoM-OEm-FacOccVKgQ",
-  "website": "https://youtube.com/channel/UCmGBpXoM-OEm-FacOccVKgQ",
-  "repository": "https://github.com/MRK-YT/MT-VideoCompress",
+  "success_url": "https://t.me/ajvadntr",
+  "website": "https://t.me/ajvadntr",
+  "repository": "https://github.com/ajvadntr/AIOM_COMPRESSOR_BOT",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable VARs when in ENV mode",
@@ -19,7 +19,7 @@
     },
     "SESSION_NAME": {
       "description": "Keep this default",
-      "value": "MTCompressBot",
+      "value": "AIOM_Compress_Bot",
       "required": true
     },
     "DATABASE_URL": {
@@ -33,12 +33,12 @@
       "required": true
     },
     "APP_ID": {
-      "description": "Get this value from https://my.telegram.org or @MT_MyTelegramOrg_BOT",
+      "description": "Get this value from https://my.telegram.org",
       "value": "",
       "required": true
     },
     "API_HASH": {
-      "description": "Get this value from https://my.telegram.org  or @MT_MyTelegramOrg_BOT",
+      "description": "Get this value from https://my.telegram.org",
       "value": "",
       "required": true
     },
@@ -61,13 +61,13 @@
       "required": true
     },
     "LOG_CHANNEL": {
-      "description": "Your Bot's Log Channel's Username. For Help ask in @linux_repo",
+      "description": "Your Bot's Log Channel's Username. For Help ask in @ajvadntr",
       "value": "",
       "required": true
     },
     "UPDATES_CHANNEL": {
-      "description": "Do Force Sub! Add your Channel username which you want to do Force Sub. Read README.md file first!",
-      "value": "Mo_Tech_YT",
+      "description": "Do Force Sub! Add your Channel username which you want to do Force Sub",
+      "value": "AIOM_BOTS",
       "required": false
     }
   },
