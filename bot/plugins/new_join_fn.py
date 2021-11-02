@@ -74,12 +74,12 @@ async def help_message_f(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('👥 Group', url='https://t.me/AIOM_BOTS_GROUP'),
-                    InlineKeyboardButton('🗣️ Chnnel', url='https://t.me/AIOM_BOTS'),
-                    InlineKeyboardButton('📄 Bot List', url='https://t.me/AIOM_BOTS/13')
+                    InlineKeyboardButton('👥Group', url='https://t.me/AIOM_BOTS_GROUP'),
+                    InlineKeyboardButton('🗣️Channel', url='https://t.me/AIOM_BOTS'),
+                    InlineKeyboardButton('📄Bot List', url='https://t.me/AIOM_BOTS/13')
                 ],
                 [
-                    InlineKeyboardButton('➰️ Sorce Code', url='https://github.com/ajvadntr/AIOM_COMPRESSOR_BOT')
+                    InlineKeyboardButton('➰️ Source Code', url='https://github.com/ajvadntr/AIOM_COMPRESSOR_BOT')
                 ]
             ]
         ),
