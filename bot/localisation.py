@@ -36,17 +36,17 @@ class Localisation:
     
     CUSTOM_CAPTION_UL_FILE = "A Bᴏᴛ Bʏ : @AIOM_BOTS"
     
-    NO_CUSTOM_THUMB_NAIL_FOUND = "No Custom ThumbNail Found."
+    NO_CUSTOM_THUMB_NAIL_FOUND = "Nᴏ Cᴜsᴛᴏᴍ Tʜᴜᴍʙɴᴀɪʟ Fᴏᴜɴᴅ."
     
     NO_VOID_FORMAT_FOUND = "No-One Gonna Help You\n{}"
     
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
     
-    FF_MPEG_RO_BOT_STOR_AGE_ALREADY_EXISTS = "Already One Process Going On! \n\nCheck Live Status On Log Channel."
-    
+    FF_MPEG_RO_BOT_STOR_AGE_ALREADY_EXISTS = "Aʟʀᴇᴀᴅʏ Oɴᴇ Pʀᴏᴄᴇss Gᴏɪɴɢ Oɴ!\n\nCʜᴇᴄᴋ Lɪᴠᴇ Sᴛᴀᴛᴜs Oɴ Lᴏɢ Cʜᴀɴɴᴇʟ."
+
     HELP_MESSAGE = get_config(
         "STRINGS_HELP_MESSAGE",
-        "Hi, I Am Video Compressor Bot \n\n1. Send Me Your Telegram Big Video File \n2. Reply To The file With: /compress 50 \n\n- @AIOM_BOTS -"
+        "1. Sᴇɴᴅ Mᴇ Yᴏᴜʀ Tᴇʟᴇɢʀᴀᴍ Bɪɢ Vɪᴅᴇᴏ Fɪʟᴇ \n\n2. Rᴇᴘʟʏ Tᴏ Tʜᴇ Fɪʟᴇ Wɪᴛʜ: /compress 50\n\nA Bᴏᴛ Bʏ : @AIOM_BOTS"
     )
     WRONG_MESSAGE = get_config(
         "STRINGS_WRONG_MESSAGE",
