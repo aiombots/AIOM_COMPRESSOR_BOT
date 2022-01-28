@@ -77,23 +77,3 @@ async def button(bot, update: CallbackQuery):
             except:
                 pass
 	
-	async def button(bot, update: CallbackQuery):
-    cb_data = update.data
-    try:
-        g = await AdminCheck(bot, update.message.chat.id, update.from_user.id)
-        print(g)
-    except:
-        pass
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-				
