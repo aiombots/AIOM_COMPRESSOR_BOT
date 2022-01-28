@@ -95,12 +95,12 @@ async def incoming_start_message_f(bot, update):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('👥 Group', url='https://t.me/AIOM_BOTS_GROUP'),
-                    InlineKeyboardButton('🗣️ Channel', url='https://t.me/AIOM_BOTS'),
-                    InlineKeyboardButton('👤 My Dev', url='https://t.me/ajvadntr')
+                    InlineKeyboardButton('Gʀᴏᴜᴘ', url='https://t.me/AIOM_BOTS_GROUP'),
+                    InlineKeyboardButton('Cʜᴀɴɴᴇʟ', url='https://t.me/AIOM_BOTS'),
+                    InlineKeyboardButton('Mʏ Dᴇᴠ', url='https://t.me/ajvadntr')
                 ],
                 [
-                    InlineKeyboardButton('➰️ Source Code', url='https://github.com/ajvadntr/AIOM_COMPRESSOR_BOT')
+                    InlineKeyboardButton('Sᴏᴜʀᴄᴇ Cᴏᴅᴇ', url='https://github.com/ajvadntr/AIOM_COMPRESSOR_BOT')
                 ]
             ]
         ),
