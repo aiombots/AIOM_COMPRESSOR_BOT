@@ -6,7 +6,7 @@ from bot.get_cfg import get_config
 
 
 class Localisation:
-    START_TEXT = "<b>Hᴇʟʟᴏ 👋,\n\nTʜɪs Is A Tᴇʟᴇɢʀᴀᴍ Vɪᴅᴇᴏ Cᴏᴍᴘʀᴇss Bᴏᴛ.\n\nSᴇɴᴅ Mᴇ Aɴʏ Tᴇʟᴇɢʀᴀᴍ Bɪɢ Vɪᴅᴇᴏ Fɪʟᴇ I Wɪʟʟ Cᴏᴍᴘʀᴇss Iᴛ Tᴏ A Sᴍᴀʟʟ Vɪᴅᴇᴏ Fɪʟᴇ!\n\n/help Fᴏʀ Mᴏʀᴇ Dᴇᴛᴀɪʟs...</b>"
+    START_TEXT = "<b>Hᴇʟʟᴏ 👋,\n\nTʜɪs Is A Tᴇʟᴇɢʀᴀᴍ Vɪᴅᴇᴏ Cᴏᴍᴘʀᴇss Bᴏᴛ.\n\nSᴇɴᴅ Mᴇ Aɴʏ Tᴇʟᴇɢʀᴀᴍ Bɪɢ Vɪᴅᴇᴏ Fɪʟᴇ I Wɪʟʟ Cᴏᴍᴘʀᴇss Iᴛ Tᴏ A Sᴍᴀʟʟ Vɪᴅᴇᴏ Fɪʟᴇ!\n\n/help Fᴏʀ Mᴏʀᴇ Dᴇᴛᴀɪʟs...\n\nPᴏᴡᴇʀᴇᴅ ʙʏ : @AIOM_BOTS</b>"
 
     ABS_TEXT = " Please don't be selfish."
     
@@ -20,21 +20,21 @@ class Localisation:
     
     RCHD_BOT_API_LIMIT = "Uᴘʟᴏᴀᴅɪɴɢ..... "
     
-    RCHD_TG_API_LIMIT = "Downloaded in {} Seconds.\nDetected File Size: {}\nSorry. But, I Cannot Upload Files Greater Than 1.95GB Due To Telegram API limitations."
-    
-    COMPRESS_SUCCESS = "Downloaded in {}\n\nCompressed in {}\n\nUploaded in {}\n\nBy @AIOM_BOTS"
+    RCHD_TG_API_LIMIT = "Dᴏᴡɴʟᴏᴀᴅᴇᴅ Iɴ {} Sᴇᴄᴏɴᴅs.\n\nDᴇᴛᴇᴄᴛᴇᴅ Fɪʟᴇ Sɪᴢᴇ: {}\n\nSᴏʀʀʏ. Bᴜᴛ, I Cᴀɴɴᴏᴛ Uᴘʟᴏᴀᴅ Fɪʟᴇs Gʀᴇᴀᴛᴇʀ Tʜᴀɴ 1.99ɢʙ Dᴜᴇ Tᴏ Tᴇʟᴇɢʀᴀᴍ Aᴘɪ Lɪᴍɪᴛᴀᴛɪᴏɴs."
 
-    COMPRESS_PROGRESS = "ETA: {}\nProgress: {}%"
+    COMPRESS_SUCCESS = "Dᴏᴡɴʟᴏᴀᴅᴇᴅ Iɴ {}\n\nCᴏᴍᴘʀᴇssᴇᴅ Iɴ {}\n\nUᴘʟᴏᴀᴅᴇᴅ Iɴ {}\n\nA Boᴛ Bʏ : @AIOM_BOTS"
 
-    SAVED_CUSTOM_THUMB_NAIL = "Custom video / file Thumbnail Saved. This Image Will Be Used In The Video / file."
+    COMPRESS_PROGRESS = "ETA: {}\nPʀᴏɢʀᴇss : {}%"
+
+    SAVED_CUSTOM_THUMB_NAIL = "Tʜᴜᴍʙɴᴀɪʟ Sᴀᴠᴇᴅ Sᴜᴄᴄᴇssꜰᴜʟʟʏ"
     
-    DEL_ETED_CUSTOM_THUMB_NAIL = "Custom Thumbnail Cleared Succesfully."
+    DEL_ETED_CUSTOM_THUMB_NAIL = "Tʜᴜᴍʙɴᴀɪʟ Cʟᴇᴀʀᴇᴅ Sᴜᴄᴄᴇsꜰᴜʟʟʏ"
     
-    FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "Media Cleared Succesfully."
+    FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "Mᴇᴅɪᴀ Cʟᴇᴀʀᴇᴅ Sᴜᴄᴄᴇsꜰᴜʟʟʏ"
     
-    SAVED_RECVD_DOC_FILE = "Downloaded Successfully."
+    SAVED_RECVD_DOC_FILE = "Dᴏᴡɴʟᴏᴀᴅ Sᴜᴄᴄᴇssꜰᴜʟʟ "
     
-    CUSTOM_CAPTION_UL_FILE = " "
+    CUSTOM_CAPTION_UL_FILE = "A Bᴏᴛ Bʏ : @AIOM_BOTS"
     
     NO_CUSTOM_THUMB_NAIL_FOUND = "No Custom ThumbNail Found."
     
