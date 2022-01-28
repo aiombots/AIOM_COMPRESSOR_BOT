@@ -76,4 +76,24 @@ async def button(bot, update: CallbackQuery):
                 await update.message.edit_text("Okay Fine")
             except:
                 pass
+	
+	async def button(bot, update: CallbackQuery):
+    cb_data = update.data
+    try:
+        g = await AdminCheck(bot, update.message.chat.id, update.from_user.id)
+        print(g)
+    except:
+        pass
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
 				
