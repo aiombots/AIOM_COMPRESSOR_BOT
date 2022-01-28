@@ -71,11 +71,11 @@ async def incoming_start_message_f(bot, update):
                 return
         except UserNotParticipant:
             await message.reply_text(
-                text="**Please Join My Updates Channel To Use This Bot!**",
+                text="Pʟᴇᴀsᴇ Jᴏɪɴ Mʏ Uᴘᴅᴀᴛᴇsy Cʜᴀɴɴᴇʟ Tᴏ Usᴇ Tʜɪs Bᴏᴛ!",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("Join Updates Channel", url=f"https://t.me/{UPDATES_CHANNEL}")
+                            InlineKeyboardButton("Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}")
                         ]
                     ]
                 ),
@@ -126,11 +126,11 @@ async def incoming_compress_message_f(bot, update):
         except UserNotParticipant:
             await bot.send_message(
                 chat_id=update.chat.id,
-                text="**Please Join My Updates Channel to use this Bot!**",
+                text="Pʟᴇᴀsᴇ Jᴏɪɴ Mʏ Uᴘᴅᴀᴛᴇsy Cʜᴀɴɴᴇʟ Tᴏ Usᴇ Tʜɪs Bᴏᴛ!",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("Join Updates Channel", url=f"https://t.me/{UPDATES_CHANNEL}")
+                            InlineKeyboardButton("Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}")
                         ]
                     ]
                 ),
@@ -149,7 +149,7 @@ async def incoming_compress_message_f(bot, update):
         try:
             await bot.send_message(
                 chat_id=update.chat.id,
-                text="Pls Reply To A Telegram Media",
+                text="Rᴇᴘʟʏ Tᴏ A Tᴇʟᴇɢʀᴀᴍ Mᴇᴅɪᴀ",
                 reply_to_message_id=update.message_id
             )
         except:
@@ -262,7 +262,7 @@ async def incoming_compress_message_f(bot, update):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton('Show Bot Status', url=f'https://t.me/{LOG_CHANNEL}')
+                            InlineKeyboardButton('Sʜᴏᴡ Bᴏᴛ Sᴛᴀᴛᴜs', url=f'https://t.me/{LOG_CHANNEL}')
                             # That's Username na ...
                         ]
                     ]
